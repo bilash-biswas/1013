@@ -1,0 +1,10 @@
+A = io.read("*n")
+B = io.read("*n")
+C = io.read("*n")
+if (A > B and A > C) then
+    print(A.." eh o maior")
+elseif (B > C and B > A) then
+    print(B.." eh o maior")
+else
+    print(C.." eh o maior")
+end
