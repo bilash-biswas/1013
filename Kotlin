@@ -1,0 +1,15 @@
+import java.util.Scanner
+
+fun main(args: Array<String>){
+    val read = Scanner(System.`in`);
+    var a = read.nextInt()
+    var b = read.nextInt()
+    var c = read.nextInt()
+    if(a > b && a > c){
+        println("$a eh o maior")
+    }else if(b > c && b > a){
+        println("$b eh o maior")
+    }else{
+        println("$c eh o maior")
+    }
+}
