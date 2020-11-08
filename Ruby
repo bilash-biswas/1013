@@ -1,0 +1,11 @@
+a,b,c = gets().chomp().split(' ');
+a = a.to_i
+b = b.to_i
+c = c.to_i
+if a > b && a > c
+  printf("%d eh o maior\n", a);
+elsif b > a && b > c
+    printf("%d eh o maior\n", b);
+else
+  printf("%d eh o maior\n", c);
+end
