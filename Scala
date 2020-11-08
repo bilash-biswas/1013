@@ -1,0 +1,12 @@
+object Main {
+  def main(args:Array[String]){
+    var Array(a,b,c) = scala.io.StdIn.readLine().split(" ").map(_.toInt)
+    if(a > b && a > c){
+      println(f"$a eh o maior")
+    }else if(b > a && b > c){
+      println(f"$b eh o maior")
+    }else{
+      println(f"$c eh o maior")
+    }
+  }
+}
