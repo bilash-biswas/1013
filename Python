@@ -1,0 +1,10 @@
+x,y,z = input().split()
+a = int(x)
+b = int(y)
+c = int(z)
+if a > c and a > b:
+    print("{} eh o maior".format(a))
+elif b > a and b > c:
+    print("{} eh o maior".format(b))
+else:
+    print("{} eh o maior".format(c))
