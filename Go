@@ -1,0 +1,17 @@
+package main
+
+import "fmt"
+
+func main() {
+	var a, b, c int
+	fmt.Scan(&a)
+	fmt.Scan(&b)
+	fmt.Scan(&c)
+	if a > b && a > c {
+		fmt.Printf("%d eh o maior\n", a)
+	} else if b > c && b > a {
+		fmt.Printf("%d eh o maior\n", b)
+	} else {
+		fmt.Printf("%d eh o maior\n", c)
+	}
+}
